@@ -1,6 +1,6 @@
 # splunkDataGeneratorTCP
 
-This is a simple python script that generates fake JSON Data and sends to Splunk via TCP (Inspired by [George Starcher's code](https://github.com/georgestarcher/Splunk-Class-httpevent))
+This is a simple python script that generates fake JSON data and send it to Splunk via TCP (Inspired by [George Starcher's code](https://github.com/georgestarcher/Splunk-Class-httpevent))
 
 
 
@@ -10,12 +10,12 @@ This is a simple python script that generates fake JSON Data and sends to Splunk
 
 ## Basic Usage
 
-1. Set the Splunk host IP and listening port (code line 24 and 25)
+1. Set the Splunk log collector (Universal Forwarder/Heavy Forwarder/Single Instance) IP and the listening port (in code line 24 and 25)
 
-2. Execute the script with:
+2. Execute the script with the command:
 
    ```
-   Python3 splunkDataGeneratorTCP.py
+   python3 splunkDataGeneratorTCP.py
    ```
 
    
